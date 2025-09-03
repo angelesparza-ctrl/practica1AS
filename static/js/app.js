@@ -90,7 +90,7 @@ app.controller("productosCtrl", function ($scope, $http) {
             id: "",
             nombre: $("#txtNombre").val(),
             precio: $("#txtPrecio").val(),
-            existencia: $("#txtExistencias").val(),
+            existencias: $("#txtExistencias").val(),
         }, function (respuesta){
             //
         })
@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     activeMenuOption(location.hash)
 })
+
 
 
 
