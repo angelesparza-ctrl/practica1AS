@@ -86,7 +86,7 @@ app.controller("productosCtrl", function ($scope, $http) {
     $(document).on("submit", "#frmProducto", function (event) {
         event.preventDefault()
 
-        $.post("/producto",{
+        $.post("/productos",{
             id: "",
             nombre: $("#txtNombre").val(),
             precio: $("#txtPrecio").val(),
@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     activeMenuOption(location.hash)
 })
+
 
 
 
